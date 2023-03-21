@@ -22,4 +22,4 @@ const prezzoScontato = prezzo.toFixed(2);
 console.log(" Il prezzo del biglietto è " + prezzoScontato + " euro.");
 const biglietto = " il prezzo del biglietto è " + prezzoScontato + " euro.";
 
-document.getElementById(biglietto).innerHTML;
+document.getElementById('biglietto').innerHTML = prezzoScontato + " euro";
